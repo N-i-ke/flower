@@ -1,4 +1,5 @@
 import React from "react";
+import logo from "../assets/logo.svg"; // ロゴ画像のパスを変更してください
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars } from "@fortawesome/free-solid-svg-icons";
 
@@ -8,7 +9,7 @@ const Header: React.FC = () => {
       <div className="header_inner">
         <div className="header_left">
           <div className="logo">
-            <img src="img/logo.svg" alt="Logo" />
+            <img src={logo} alt="Logo" />
           </div>
         </div>
         <div className="header_right">
